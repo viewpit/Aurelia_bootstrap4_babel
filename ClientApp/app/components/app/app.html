@@ -1,0 +1,18 @@
+<template>
+  <require from="../navmenu/navmenu.html"></require>
+  <require from="./app.scss"></require>
+
+  <navmenu router.bind="router" containerless></navmenu>
+
+  <div class="container-fluid">
+    <router-view></router-view>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="text-center text-muted">&copy; Viewpit 2017</div>
+    </div>
+  </footer>
+
+</template>
