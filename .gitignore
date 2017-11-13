@@ -33,3 +33,4 @@ scripts
 /Properties/PublishProfiles
 /Properties
 /wwwroot
+/bin/Release/netcoreapp2.0

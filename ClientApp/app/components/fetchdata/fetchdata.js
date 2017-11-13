@@ -10,6 +10,6 @@ export class Fetchdata {
             .then(result => result.json())
             .then(data => {
                 this.forecasts = data;
-            });
+            }); 
     }
 }

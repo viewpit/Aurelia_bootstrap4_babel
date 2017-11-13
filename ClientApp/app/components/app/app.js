@@ -4,7 +4,7 @@ import { Router } from 'aurelia-router';
 import 'bootstrap';
 
 export class App {
-    
+     
     configureRouter(config, router) {
         config.title = 'Test_babel';
 
